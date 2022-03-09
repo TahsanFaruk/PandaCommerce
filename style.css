@@ -25,15 +25,16 @@
 .cat1, .cat2, .cat3 {
   padding: 10px 30px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 .cat1{
-  background-color: #ff136f;
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
 }
 .cat2 {
-  background-color: purple;
+  background-image: linear-gradient(to bottom, #FF00FF 0%, #800080 100%);
 }
 .cat3 {
-  background-color: blue;
+  background-image: linear-gradient(to bottom, #00FFFF 0%, #0000FF 100%);
 }
 
 .categories h1 {
@@ -42,4 +43,22 @@
 
 .categories img {
   width: 100px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 6px 10px lightgray;
+}
+
+#Subscribe {
+  height: 300px;
+}
+
+#Subscribe h6 {
+  color: gray;
+}
+
+footer{
+  text-align: center;
 }
